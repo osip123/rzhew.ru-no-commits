@@ -1,0 +1,25 @@
+.dost__containner{
+    max-height: 1000px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f51717;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 45px;
+    flex-direction: column;
+    padding: 15px;
+
+    h5{
+        font-size: 45px;
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    span{
+        font-size: 17px;
+        font-weight: 300;
+    }
+}

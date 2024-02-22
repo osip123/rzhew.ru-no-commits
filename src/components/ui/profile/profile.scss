@@ -1,0 +1,36 @@
+
+button{
+    background-color: #f51717;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 11px;
+    margin-right: 12px;
+    border: 1px solid rgb(228, 228, 228);
+    cursor: pointer;
+    transition: ease-in 0.4s;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+button:hover{
+    padding: 12px;
+    background-color: rgb(228, 228, 228);
+    z-index: 1;
+    color: #f51717;
+}
+
+.Profile__{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    svg{
+        color: #fff;
+    }
+    span{
+        font-size: 20px;
+        color: #fff;
+    }
+    
+}

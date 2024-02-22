@@ -1,0 +1,30 @@
+.banner__cintainner{
+    border: 2px solid #f51717;
+    border-radius: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    max-height: 1000px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    cursor: pointer;
+    z-index: 0;
+    transition: ease-in 0.4s;
+
+    main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.banner__cintainner:hover{
+    background-color: #f51717;
+    z-index: 2;
+    padding: 4px;
+    color: #fff;
+}

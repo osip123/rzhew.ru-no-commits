@@ -1,0 +1,19 @@
+header{
+    padding: 10px;
+    padding-top: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 1250px;
+    min-height: 145px;
+    max-height: 250px;
+    background-color: #f51717;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+
+    .top__line{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

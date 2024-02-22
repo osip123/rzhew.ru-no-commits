@@ -1,0 +1,29 @@
+.news_containner_module{
+    width: 900px;
+    min-height: 200px;
+    border: 1px solid #f51717;
+    padding: 10px;
+    border-radius: 0.7rem;
+
+    .top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h5{
+            font-weight: 500;
+            font-size: 20px;
+        }
+        span{
+            font-weight: 300;
+            font-size: 16px;
+        }
+    }
+
+    .body_data{
+        width: 100%;
+        min-height: 180px;
+        text-align: center;
+    }
+
+}
